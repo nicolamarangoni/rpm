@@ -31,7 +31,7 @@ mkdir -p  %{buildroot}
 mkdir -p  %{buildroot}%{_sharedstatedir}/h2database/data
 
 # in builddir
-cp -a * %{buildroot}
+cp -a src/* %{buildroot}
 
 %clean
 rm -rf %{buildroot}
