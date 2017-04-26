@@ -42,3 +42,4 @@ rm -rf %{buildroot}
 %defattr(744,root,root)
 %{_sharedstatedir}/h2database/bin/*
 /lib/systemd/system/h2database.service
+%dir %{_sharedstatedir}/h2database/data
