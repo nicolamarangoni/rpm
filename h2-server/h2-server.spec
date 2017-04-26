@@ -28,6 +28,7 @@ BuildRoot: %{_topdir}/BUILD/%{name}-%{version}-root
 %install
 rm -rf %{buildroot}
 mkdir -p  %{buildroot}
+mkdir -p  %{buildroot}%{_sharedstatedir}/h2database/data
 
 # in builddir
 cp -a * %{buildroot}
@@ -42,4 +43,3 @@ rm -rf %{buildroot}
 %defattr(744,root,root)
 %{_sharedstatedir}/h2database/bin/*
 /lib/systemd/system/h2database.service
-%dir %{_sharedstatedir}/h2database/data
