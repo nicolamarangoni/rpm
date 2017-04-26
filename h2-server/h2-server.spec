@@ -14,7 +14,7 @@ Source: %{name}-%{version}.tar.gz
 #Source: %{expand:%{name}-%{version}-%{release}}
 
 BuildArch: noarch
-BuildRoot: %{_topdir}/BUILD/%{name}-%{version}-%{release}-root
+BuildRoot: %{_topdir}/BUILD/%{name}-%{version}-root
 
 %description
 %{summary}
