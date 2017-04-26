@@ -20,7 +20,7 @@ BuildRoot: %{_topdir}/BUILD/%{name}-%{version}-root
 %{summary}
 
 %prep
-%setup -q -n %{name}-%{version}-%{release}
+%setup -q -n %{name}-%{version}
 
 %build
 # Empty section.
