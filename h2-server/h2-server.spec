@@ -8,9 +8,9 @@ Release: 1
 Summary: H2 database network server
 
 Group: Development/Tools
-License: GPL      
+License: GPL
 URL: http://marangoni.io
-Source: %{name}-%{version}-%{release}.tar.gz
+Source: %{name}-%{version}.tar.gz
 #Source: %{expand:%{name}-%{version}-%{release}}
 
 BuildArch: noarch
